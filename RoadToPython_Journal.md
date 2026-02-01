@@ -11,21 +11,28 @@ Jurnal ini mendokumentasikan proses belajar Python saya mulai dari nol, fokus pa
 | 3 | Tipe Data & Casting | `type()`, `int()`, `str()`, `bool` | ✅ Berhasil |
 | 4 | Input & Operator | `input()`, `*`, `//`, `%` | ✅ Berhasil |
 | 5 | String Manipulation | .upper(), .title(), len(), in | ✅ Selesai |
+| 6 | Percabangan Logic | and, or, if-elif-else | ✅ Berhasil |
 
 ---
 
 ## 💡 Pelajaran Penting (Key Takeaways)
 
-### 🔹 Fondasi Dasar
+### 🔹 Fondasi & String
 - **Interpreter:** Mesin "penerjemah" Python di VS Code (Set via `Ctrl+Shift+P`).
-- **Data vs Text:** Teks wajib pakai `" "`, angka tidak.
 - **F-String:** Cara termudah menggabungkan teks dan variabel: `f"Halo {nama}"`.
+- **String Methods:** - `.upper()` (Kapital semua), `.title()` (Besar di awal kata).
+    - `len()` (Hitung panjang karakter), `in` (Cek keberadaan kata).
 
 ### 🔹 Penanganan Error & Logika
-- **Casting:** Sangat krusial! Ingat bahwa `input()` selalu menghasilkan String. Gunakan `int()` jika ingin menghitung angka.
-- **Math Logic:** - `/` (Hasil desimal)
-    - `//` (Hasil bulat/utuh)
-    - `%` (Mencari sisa bagi)
+- **Casting:** Ingat bahwa `input()` selalu menghasilkan String. Gunakan `int()` untuk angka.
+- **Math Operators:** `/` (Desimal), `//` (Bulat), `%` (Sisa bagi).
+- **Logical Operators:** - `if-elif-else`: Mengambil keputusan berdasarkan kondisi.
+    - `and`: Semua syarat harus benar.
+    - `or`: Salah satu syarat benar sudah cukup.
+
+### 🔹 Best Practices
+- **Indentasi:** Spasi/Tab setelah tanda titik dua `:` pada `if` adalah wajib untuk menentukan blok kode.
+- **Git Flow:** Selalu cek `git status` sebelum `add`, `commit`, dan `push`.
 
 ### 🔹 Masalah & Solusi
 - **TypeError:** Muncul jika mencampur `str` dan `int`. Solusi: Ubah salah satu tipe datanya agar seragam.
