@@ -12,6 +12,7 @@ Jurnal ini mendokumentasikan proses belajar Python saya mulai dari nol, fokus pa
 | 4 | Input & Operator | `input()`, `*`, `//`, `%` | ✅ Berhasil |
 | 5 | String Manipulation | .upper(), .title(), len(), in | ✅ Selesai |
 | 6 | Percabangan Logic | and, or, if-elif-else | ✅ Berhasil |
+| 7 | Nested IF | if inside if (Logic levels) | ✅ Berhasil |
 
 ---
 
@@ -29,6 +30,10 @@ Jurnal ini mendokumentasikan proses belajar Python saya mulai dari nol, fokus pa
 - **Logical Operators:** - `if-elif-else`: Mengambil keputusan berdasarkan kondisi.
     - `and`: Semua syarat harus benar.
     - `or`: Salah satu syarat benar sudah cukup.
+- **Nested IF (Logika Bersarang)**
+    - Digunakan untuk validasi bertahap.
+    - Blok kode di dalam `if` kedua harus memiliki indentasi ekstra (2x Tab/4x Spasi).
+    - Struktur: Mengecek kondisi luar dulu, baru masuk ke kondisi dalam.
 
 ### 🔹 Best Practices
 - **Indentasi:** Spasi/Tab setelah tanda titik dua `:` pada `if` adalah wajib untuk menentukan blok kode.
