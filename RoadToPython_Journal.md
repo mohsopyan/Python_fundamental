@@ -13,6 +13,7 @@ Jurnal ini mendokumentasikan proses belajar Python saya mulai dari nol, fokus pa
 | 5 | String Manipulation | .upper(), .title(), len(), in | ✅ Selesai |
 | 6 | Percabangan Logic | and, or, if-elif-else | ✅ Berhasil |
 | 7 | Nested IF | if inside if (Logic levels) | ✅ Berhasil |
+| 8 | For Loop | for, range() | ✅ Berhasil |
 
 ---
 
@@ -34,6 +35,13 @@ Jurnal ini mendokumentasikan proses belajar Python saya mulai dari nol, fokus pa
     - Digunakan untuk validasi bertahap.
     - Blok kode di dalam `if` kedua harus memiliki indentasi ekstra (2x Tab/4x Spasi).
     - Struktur: Mengecek kondisi luar dulu, baru masuk ke kondisi dalam.
+
+### 🔹 Perulangan (Looping)
+- **For Loop:** Digunakan untuk mengulang kode dengan jumlah yang sudah ditentukan.
+- **Fungsi range(start, stop, step):** - `start`: Angka awal (inklusif).
+    - `stop`: Batas akhir (eksklusif, angka ini tidak akan dicetak).
+    - `step`: Jarak/lompatan antar angka (misal: lompat 2 untuk angka genap).
+- **Modulo (%) dalam Loop:** Sangat berguna untuk memfilter angka (contoh: `i % 2 == 0` untuk mencari angka genap).
 
 ### 🔹 Best Practices
 - **Indentasi:** Spasi/Tab setelah tanda titik dua `:` pada `if` adalah wajib untuk menentukan blok kode.
