@@ -19,6 +19,7 @@ Jurnal ini mendokumentasikan proses belajar Python saya mulai dari nol, fokus pa
 | 11 | Python List(Basic) | append(), len(), indexing | ✅ Berhasil |
 | 12 | List Slicing & Sorting | .sort(), [start:stop], sum() | ✅ Berhasil |
 | 13 | Tuple (Immutable) | (value1, value2) | ✅ Berhasil |
+| 14 | Dictionary | {key: value}, del, update | ✅ Berhasil |
 
 ---
 
