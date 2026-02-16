@@ -23,6 +23,7 @@ Jurnal ini mendokumentasikan proses belajar Python saya mulai dari nol, fokus pa
 | 15 | Function | def, return, parameters, scope | ✅ Berhasil |
 | 15 | Pro Function | Type Hinting, Default Params | ✅ Berhasil |
 | 16 | Dynamic Arguments | *args, **kwargs | ✅ Berhasil |
+| 17 | Modules | import, from ... import | ✅ Berhasil |
 
 ---
 
