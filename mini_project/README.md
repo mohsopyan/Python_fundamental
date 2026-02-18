@@ -3,15 +3,16 @@
 Proyek ini adalah implementasi sistem backend sederhana menggunakan Python Modules dan Packages.
 
 ## Fitur Utama
-- **User Management**: Pendaftaran user dengan metadata dinamis.
-- **Access Control**: Validasi level akses user.
-- **Tax Calculation**: Fungsi perhitungan pajak otomatis.
-- **String Formatter**: Header decorator untuk tampilan terminal.
-- **Reliability & Safety**: Implementasi `try...except...finally` untuk mencegah sistem crash akibat input tidak valid.
+- **Object-Oriented User Model**: Menggunakan Class `User` untuk standarisasi data entitas.
+- **Reliability & Safety**: Proteksi `try...except` di dalam constructor Class untuk menjamin integritas data.
+- **Access Control**: Logika pengecekan akses yang tertanam (encapsulated) dalam objek User.
+- **Modular Structure**: Pemisahan antara logika pendukung (`tools.py`) dan cetakan data (`models.py`).
 
 ## Struktur Proyek
-- `main.py`: Menjalankan alur program utama.
-- `utils/`: Package yang berisi kumpulan modul pendukung.
+- `main.py`: Entry point aplikasi.
+- `utils/`: 
+    - `models.py`: Berisi blueprint/class (User, dll).
+    - `tools.py`: Berisi fungsi utility dan helper.
 
 ## Cara Menjalankan
 ```bash
