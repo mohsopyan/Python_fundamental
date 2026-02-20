@@ -1,5 +1,5 @@
 from utils import tools as t, formatter as f
-from utils.models import User
+from utils.models import User, Admin
 
 print(t.sapa_user("Moyan"))
 
@@ -27,3 +27,8 @@ print(user1.cek_status_akses())
 print(user2.sapa())
 print(user3.cek_status_akses())
 print(user4.cek_status_akses())
+
+admin1 = Admin("Moyan Expert", "admin@moyan.com", 10, "SECRET_99")
+
+print(admin1.sapa())
+print(admin1.hapus_data())
