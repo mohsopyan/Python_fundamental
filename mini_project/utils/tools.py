@@ -1,3 +1,26 @@
+import json
+
+def simpan_data(list_user, filename="database.json"):
+    try:
+        data_to_save = []
+        for u in list_user:
+            data_to_save.append(u.__dict__)
+
+        with open(filename, "w") as file:
+            json.dump(data_to_save, file, indent=4)
+        print(f"✅ Data berhasil disimpan ke {filename}")
+    except Exception as e:
+        print(f"❌ Gagal menyimpan data: {e}")
+
+def muat_data(filename="database.json"):
+    try:
+        with open(filename, "r") as file:
+            data = json.load(file)
+            return data
+    except FileNotFoundError:
+        print("Peringatan: File database tidak ditemukan.")
+        return []
+
 def sapa_user(nama:str):
     return f"Halo {nama}, Selamat datang di sistem backend"
 

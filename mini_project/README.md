@@ -5,7 +5,7 @@ Proyek ini adalah implementasi sistem backend sederhana menggunakan Python Modul
 ## Fitur Utama
 
 ### 1. Advanced OOP Architecture
-- **Base Class `User`**: Stabdarisai entitas user dengan enkapsulasi data.
+- **Base Class `User`**: Standarisasi entitas user dengan enkapsulasi data.
 - **Inheritance (Pewarisan)**: Class `Admin` yang mewarisi sifat `User` namun memiliki kapabilitas khusus.
 - **Method Overriding**: Personalisasi perilaku fungsi berdasarkan peran user (User vs Admin).
 
